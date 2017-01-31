@@ -1,4 +1,5 @@
-# benchmarkGoal-15-coding-exercises
+Link to project here: https://github.com/GuildCrafts/web-development-js/issues/144
+
 
 ## Description
 Benchmark goals are projects that are designed to be done solo. 
@@ -18,6 +19,12 @@ The specs of a benchmark goal are designed to cover a wide range of basic concep
 Even though Benchmark Goals are solo goals, the project formation algorithm will add you to it in teams of two. Once that's done, the moderator will split up the team into two single-person projects. There will be no retrospectives for these projects.
 
 For the project review, make sure to schedule a 1:1 30 minute meeting the following week with a SEP. They will go over the code with you in real time, and give you an in person completeness/quality review. 
+
+## Testing
+
+Come up with your own inputs and outputs (using the example inputs and outputs as well) and try to test with as many (reasonable) edge cases as you can.
+
+Write your tests using the `assert` module in Node or whatever testing library you feel most comfortable with.
 
 ## Specifications
 
