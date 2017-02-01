@@ -33,4 +33,4 @@ function stringIterator( string, targetIndex ) {
 }
 
 
-stringIterator( 'Cash me outside, how bow dah?', 1);
+stringIterator( 'Cash me outside, how bow dah?', 3);
