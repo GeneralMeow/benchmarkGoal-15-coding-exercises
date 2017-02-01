@@ -20,6 +20,7 @@ If you ask for the word at index 7, your program should return an empty string (
 
 function stringIterator( string, targetIndex ) {
   let newString = string.split(' ')
+  targetIndex = targetIndex - 1
   for( let i = 0; i < newString.length; i++ ) {
     if( newString.indexOf( newString[i] ) === targetIndex ) {
       console.log( newString[i] )
@@ -32,4 +33,4 @@ function stringIterator( string, targetIndex ) {
 }
 
 
-stringIterator( 'Cash me outside, how bow dah?', 2 );
+stringIterator( 'Cash me outside, how bow dah?', 1);
