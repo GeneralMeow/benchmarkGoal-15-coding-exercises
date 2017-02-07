@@ -19,9 +19,11 @@ The disemvowled text with spaces removed.
 
 
 function disemvowel( string ) {
-  let vowelLess = string.toLowerCase().replace(/[aeiou]/gi, '')
-  let spaceLess = vowelLess.replace(/\s/gi, '')
-    console.log( spaceLess )
+  const vowelLess = string.toLowerCase().replace(/[aeiou]/gi, '')
+  const specialLess = vowelLess.replace(/[^\w]/gi, '')
+  //const spaceLess = specialLess.replace(/\s/gi, '')
+
+    console.log( specialLess )
 }
 
-disemvowel('oish effso ivhrsdf kjs')
+disemvowel('oish effso ivhrsdf kjs *$#!')
