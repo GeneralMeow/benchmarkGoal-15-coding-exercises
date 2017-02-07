@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/GeneralMeow/benchmarkGoal-15-coding-exercises#readme",
   "dependencies": {
+    "json-parser": "^1.1.5",
     "linebyline": "^1.3.0",
     "underscore": "^1.8.3"
   }
