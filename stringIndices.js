@@ -17,6 +17,9 @@ If you ask for the word at index 7, your program should return an empty string (
 //split string into an array on the spaces .split(' ')
 //iterate through the array running comparison of  (target and currentWord)
 
+const isInvalidInput = (newString, i, targetIndex) => {
+  return newString.indexOf( newString[i] ) === -1 || targetIndex > newString.length || targetIndex < 0
+}
 
 function stringIterator( string, targetIndex ) {
   let newString = string.split(' ')
@@ -25,7 +28,7 @@ function stringIterator( string, targetIndex ) {
     if( newString.indexOf( newString[i] ) === targetIndex ) {
       console.log( newString[i] )
     }
-    if( newString.indexOf( newString[i] ) === -1 || targetIndex > newString.length ) {
+    if( isInvalidInput(newString, i, targetIndex) ) {
       console.log(' " " ');
       return;
     }
@@ -33,4 +36,4 @@ function stringIterator( string, targetIndex ) {
 }
 
 
-stringIterator( 'Cash me outside, how bow dah?', 1);
+stringIterator( 'Cash me outside, how bow dah?', -3);
