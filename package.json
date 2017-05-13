@@ -1,0 +1,26 @@
+{
+  "name": "benchmarkGoal-15-coding-exercises",
+  "version": "1.0.0",
+  "description": "Link to project here: https://github.com/GuildCrafts/web-development-js/issues/144",
+  "main": "guessTheNumber.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralMeow/benchmarkGoal-15-coding-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeneralMeow/benchmarkGoal-15-coding-exercises/issues"
+  },
+  "homepage": "https://github.com/GeneralMeow/benchmarkGoal-15-coding-exercises#readme",
+  "dependencies": {
+    "linebyline": "^1.3.0"
+  }
+}
